@@ -1,0 +1,59 @@
+.header {
+    max-width: 100rem;
+    
+    background-color: rgb(241, 153, 234);
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    padding: 0.3rem;
+    color: blue;
+    font-family: fantasy;
+
+}
+
+.link {
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin: 0.5rem;
+}
+
+.link:hover {
+    font-size: 1.6rem;
+    color: #CC50C2;
+}
+
+
+
+.header-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: fantasy;
+    text-decoration: none;
+
+}
+
+/* de 500px para abajo */
+@media (max-width: 900px) {
+    
+
+    .link {
+        font-size: 1.2rem;
+        
+    }
+}
+@media (max-width: 500px) {
+    
+
+    .link {
+        font-size: 1rem;
+        margin: 0.1rem;
+    }
+}

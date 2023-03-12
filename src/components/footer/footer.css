@@ -1,0 +1,33 @@
+.footer {
+    background-color: rgb(241, 153, 234);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-f {
+    padding: 1rem;
+}
+
+.footer-h {
+    font-size: 1rem;
+    font-family: fantasy;
+    color: rgb(100, 58, 214);
+}
+
+.icono {
+    font-size: 2rem;
+    font-family: fantasy;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+@media (max-width: 500px) {
+    .footer-h {
+        font-size: 0.8rem;        
+    }
+    .icono{
+       font-size: 1.8rem;
+    }
+
+    
+}
